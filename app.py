@@ -87,9 +87,6 @@ def analyze(filename):
 
     return render_template('results.html', results=results)
 
-
-
-
 if __name__ == '__main__':
    app.run(debug=True, use_reloader=False)
 
